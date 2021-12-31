@@ -1,0 +1,38 @@
+body
+{
+    background: linear-gradient(#cf9fff, #8f00FF);
+}
+
+h1{
+
+    color:royalblue;
+    background: linear-gradient(#ffd580, #ffa500);
+}
+
+#show_sketch
+{
+    float:right;
+}
+
+canvas
+{
+    border: 5px solid rgb(255, 255, 255);
+    border-radius:20px;
+    animation-name: example;
+    animation-duration: 2s;
+    margin-top: 50px;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example {
+
+    from {box-shadow: 1px 1px 38px rgb(73, 73, 73);}
+    to {box-shadow: 1px 1px 38px rgb(73, 73, 73);}
+}
+
+p
+{
+  padding-top: 10px;
+  font-size:25px;
+}
+
